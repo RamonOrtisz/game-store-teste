@@ -45,6 +45,11 @@ body {
     height: 700px;
 }
 
+.botao{
+    display: flex;
+    justify-content: end;
+}
+
 .fcolor {
     color: #9a7eff;
 }
