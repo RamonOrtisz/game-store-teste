@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #29263f;
+}
+
+.navbar {
+    background-color: rgb(75, 27, 138);
+}
+
+
+.nav .nav-link.active {
+    background-color: #fff;
+    color: #522b9b;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Fugaz One', cursive;
+}
+
+.navbar-toggler {
+    background-color: #abaae7;
+}
+
+.section-title {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.section-title span {
+    color: #9a7eff;
+}
+
+#sobre-a-loja,
+#eventos{
+    background-color: #151325;
+}
+
+#categoria {
+    height: 700px;
+}
+
+.fcolor {
+    color: #9a7eff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: #abaae7;
+    color: #29263f;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 130px;
+    }
+
+    #categoria {
+        height: 1020px;
+    }
+
+    aside {
+        padding-bottom: 20px;
+    } 
+}
